@@ -41,6 +41,7 @@ let containerDiv = document.querySelector(".container");
 containerDiv.style.setProperty("--cell-size", 100 / 4 + "%");
 
 let displayDiv = document.createElement("div");
+displayDiv.classList.add("resultDisplay");
 displayDiv.textContent = "THIS IS THE DISPLAY AREA";
 containerDiv.appendChild(displayDiv);
 

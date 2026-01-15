@@ -10,6 +10,16 @@ body {
     width: 500px;
 }
 
+.resultDisplay {
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
 .buttonContainer {
     display: flex;
     flex-wrap: wrap;
