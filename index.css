@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 500px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.childButton {
+    width: var(--cell-size);
+    height: 100px;
+    box-sizing: border-box;
+}

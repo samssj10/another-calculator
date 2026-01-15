@@ -36,3 +36,20 @@ function operate(num1, num2, operator) {
   }
   return result;
 }
+
+let containerDiv = document.querySelector(".container");
+containerDiv.style.setProperty("--cell-size", 100 / 4 + "%");
+
+let displayDiv = document.createElement("div");
+displayDiv.textContent = "THIS IS THE DISPLAY AREA";
+containerDiv.appendChild(displayDiv);
+
+let commandDiv = document.createElement("div");
+commandDiv.classList.add("buttonContainer");
+containerDiv.appendChild(commandDiv);
+
+for (let i = 0; i < 16; i++) {
+  let digit = document.createElement("button");
+  digit.classList.add("childButton");
+  commandDiv.appendChild(digit);
+}
