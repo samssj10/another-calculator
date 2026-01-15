@@ -19,4 +19,5 @@ body {
     width: var(--cell-size);
     height: 100px;
     box-sizing: border-box;
+    font-size: 32px;
 }
