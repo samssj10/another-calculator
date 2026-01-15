@@ -47,7 +47,7 @@ containerDiv.appendChild(displayDiv);
 let commandDiv = document.createElement("div");
 commandDiv.classList.add("buttonContainer");
 containerDiv.appendChild(commandDiv);
-let allKeys = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, "+", "-", "*", "/", "=", "."];
+let allKeys = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, "+", "-", "*", "/", "=", "CLEAR"];
 
 for (let i = 0; i < 16; i++) {
   let digit = document.createElement("button");
